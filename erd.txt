@@ -1,0 +1,9 @@
+entity:-
+staff[id ,name,job,salary,id group ,id course]
+students[id,name,phone,id courses,id group]
+groups[id,number,id students,id teacher, name teacher]
+courses[id,name,price.id group,name techer]
+rel:-
+staff m:1 group
+student m:1 group
+courses 1:1 group
